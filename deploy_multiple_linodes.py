@@ -13,7 +13,7 @@ root_pass = "YourRootPassword,./"  # Replace with your desired root password
 type = "g6-dedicated-2"  # Replace with your desired instance type
 desired_cpu_version = "EPYC 7713"  # Replace with your desired CPU version
 
-# Provision 50 instances with desired CPU model
+# Provision 10 instances with desired CPU model
 counter = 0 #initial counter
 while counter < 10: #condition for 10 instances to be provisioned
     print(f"Provisioning instance {counter}...")
